@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+    background-color: #ffffff;
+    margin: 960px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    color: #777777;
+    font: inherit'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(../images/what-the-hex.png);
+    margin: 0;
+    padding: 0px;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 2;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+head,
+h2,
+h3 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #4aaaa5
+}
+
+/* "Chris Black" header */
+
+h1 {
+    font-family: 'Geogia', 'Times New Roman', serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 170px;
+    padding: 15px;
+    border: 30px;
+    margin-top: 0px;
+    margin-left: 239px;
+    text-align: center;
+    font-size: 30px;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+/* body of text */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 238px;
+    margin-bottom: 250px;
+    width: 900px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+/* link color */
+
+a {
+    color: #777777;
+    text-decoration: none;
+    border-right: solid;
+    border-width: 2px;
+    padding: 6px;
+}
+
+/* link spacing/position */
+
+#nav {
+    position: absolute;
+    left: 68%;
+    top: 27px;
+}
+
+/* img float and clear hack */
+
+.img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 10px;
+}
+
+/* bottom border in "about me" section */
+
+.about-me {
+    border-bottom: solid #cccccc;
+    font-size: 25px;
+}
+
+/* footer */
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    border-top: 6px solid;
+    border-color: #4aaaa5;
+    color: #777777;
+}
+
+/* Contact Page Form */
+
+input [type=text],
+textarea,
+#name,
+#email {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: vertical;
+}
+
+/* Submit Button Style */
+
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Floating images on portfolio*/
+
+.image1 {
+    float: left;
+    margin: 20px;
+}
+
+.image2 {
+    float: left;
+    margin: 20px;
+}
+
+.image3 {
+    float: left;
+    margin: 20px;
+    clear: left;
+}
+
+.image4 {
+    float: left;
+    margin: 20px;
+}
+
+.image5 {
+    float: left;
+    margin: 20px;
+    clear: left;
+}
+
+.clear::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*text over images*/
+
+.hangman {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rpg {
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.trivia {
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rutgers {
+    position: absolute;
+    top: 520px;
+    left: 300px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rock {
+    position: absolute;
+    top: 770px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
