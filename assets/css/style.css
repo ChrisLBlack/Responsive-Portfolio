@@ -296,3 +296,38 @@ textarea,
     height: 20px;
     line-height: 20px;
 }
+
+/* The land of Media Queries! */
+
+/* Smartphones  ----------- */
+
+@media only screen and (max-width: 320px) {
+    .content {
+        display: block;
+        width: 100%;
+        background: none;
+    }
+}
+
+/* Ipad / Similar ----------- */
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+* {
+    width: 100%;
+    margin: auto;
+    float: left;
+    flex: wrap;
+}
+.footer h1 {
+    width: 170%;
+    
+}
+.row {
+    display: block;
+}
+
+/* Kesktop / Laptop ----------- */
+
+@media only screen and (max-width: 1024px) {
+    /* Styles */
+}
