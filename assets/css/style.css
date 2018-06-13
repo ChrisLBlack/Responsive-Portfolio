@@ -301,33 +301,55 @@ textarea,
 
 /* Smartphones  ----------- */
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .content {
         display: block;
         width: 100%;
         background: none;
     }
-}
+} */
 
 /* Ipad / Similar ----------- */
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-* {
-    width: 100%;
-    margin: auto;
-    float: left;
-    flex: wrap;
-}
-.footer h1 {
-    width: 170%;
+body .content {
     
-}
-.row {
+    margin: auto;
+    width: 320px;
+    flex: wrap;
+    position: relative;
     display: block;
+    height: auto;
+    left:0;
+
 }
 
-/* Kesktop / Laptop ----------- */
+header {
+    width: 100%;
+    left: 0;
+    height: auto;
 
-@media only screen and (max-width: 1024px) {
-    /* Styles */
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    flex: wrap;
+    left: 0;
+    height: auto;
+}
+
+
+#nav {
+    clear: both;
+    position: relative;
+    left: 75px;
+}
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 }
