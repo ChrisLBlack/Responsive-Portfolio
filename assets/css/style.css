@@ -352,4 +352,63 @@ h1 {
     bottom: 0;
     width: 100%;
 }
+
+.rutgers {
+    position: absolute;
+    top: 1020px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rock {
+    position: absolute;
+    top: 1270px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.trivia {
+    position: absolute;
+    top: 770px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rpg {
+    position: absolute;
+    top: 515px;
+    left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+
 }
