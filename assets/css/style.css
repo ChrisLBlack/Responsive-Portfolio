@@ -343,6 +343,7 @@ h1 {
     left: 0;
     bottom: 0;
     width: 100%;
+    clear: both;
 }
 
 .rutgers {
@@ -403,6 +404,8 @@ h1 {
 
 }
 
+/* Small Tablets */
+
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     body .content {
         
@@ -444,6 +447,7 @@ h1 {
         left: 0;
         bottom: 0;
         width: 100%;
+        clear: both;
     }
     
     .rutgers {
@@ -505,7 +509,7 @@ h1 {
     }
  /* Tablets and Ipads etc */
 
-@media only screen and (min-width: 768px) and (max-width: 959px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
 
     body .content {
     
@@ -549,8 +553,8 @@ h1 {
     }
 
 }
-
-@media only screen and (min-width: 960px) and (max-width: 992px){
+ /* Laptops */
+@media only screen and (min-width: 960px) and (max-width: 1024px){
 
     body .content {
     
@@ -591,6 +595,54 @@ h1 {
         left: 0;
         bottom: 0;
         width: 100%;
+        clear: both;
+    }
+
+
+}
+
+@media only screen and (min-width: 1224){
+
+    body .content {
+    
+        margin: auto;
+        width: 960px;
+        flex: wrap;
+        position: relative;
+        display: block;
+        height: auto;
+        left:0;
+    
+    }
+
+    header {
+        width: 100%;
+        left: 0;
+        height: auto;
+    
+    }
+    
+    h1 {
+        margin: auto;
+        position: relative;
+        flex: wrap;
+        left: -365px;
+        height: auto;
+    }
+    
+    
+    #nav {
+        position: absolute;
+        left: 70%;
+        top: 27px;
+    }
+    
+    .footer {
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        clear: both;
     }
 
 
